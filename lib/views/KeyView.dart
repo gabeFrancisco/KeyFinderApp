@@ -24,7 +24,6 @@ class KeyView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  InfoCard("Id no banco: ${_key.keyId}"),
                   InfoCard("Marca: ${_key.manufactor}"),
                   InfoCard("Modelo: ${_key.model}"),
                   InfoCard("Tipo: ${_key.type}"),
